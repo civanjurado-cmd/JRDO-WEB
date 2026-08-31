@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JRDO Arquitectura — Arquitectura, Diseño Interior y Construcción</title>
+<meta name="description" content="JRDO Arquitectura es un despacho de arquitectura, diseño interior, diseño de mobiliario y construcción. Más de 15 años desarrollando proyectos residenciales, comerciales y hoteleros en México y el Caribe.">
+<meta property="og:title" content="JRDO Arquitectura">
+<meta property="og:description" content="Arquitectura, diseño interior, diseño de mobiliario y construcción. Proyectos con identidad propia, cuidados en cada detalle.">
+<meta property="og:image" content="assets/img/hero-mc.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230c0c0b'/%3E%3Crect x='18' y='18' width='64' height='64' fill='none' stroke='%23b3894a' stroke-width='3'/%3E%3Cline x1='50' y1='18' x2='50' y2='82' stroke='%23b3894a' stroke-width='5'/%3E%3Cline x1='18' y1='50' x2='82' y2='50' stroke='%23b3894a' stroke-width='5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20260826">
+</head>
+<body>
+
+<div class="splash" id="splash" aria-hidden="true">
+  <svg class="splash__logo" viewBox="0 0 540 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="JRDO Arquitectura">
+    <rect x="140" y="10" width="260" height="260" fill="none" stroke="currentColor" stroke-width="3"/>
+    <line x1="270" y1="10" x2="270" y2="270" stroke="currentColor" stroke-width="6"/>
+    <line x1="140" y1="140" x2="400" y2="140" stroke="currentColor" stroke-width="6"/>
+    <text x="205" y="75" font-family="'Gruppo', sans-serif" font-size="70" text-anchor="middle" dominant-baseline="central" fill="currentColor">J</text>
+    <text x="335" y="75" font-family="'Gruppo', sans-serif" font-size="70" text-anchor="middle" dominant-baseline="central" fill="currentColor">R</text>
+    <text x="205" y="205" font-family="'Gruppo', sans-serif" font-size="70" text-anchor="middle" dominant-baseline="central" fill="currentColor">D</text>
+    <text x="335" y="205" font-family="'Gruppo', sans-serif" font-size="70" text-anchor="middle" dominant-baseline="central" fill="currentColor">O</text>
+    <text x="270" y="313" font-family="'Gruppo', sans-serif" font-size="16" letter-spacing="2" text-anchor="middle" fill="currentColor" opacity=".7">ARQUITECTURA · INTERIORISMO · CONSTRUCCIÓN</text>
+  </svg>
+</div>
+
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="#top" class="brand">
+      <svg class="brand__mark" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="JRDO">
+        <rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="3"/>
+        <line x1="50" y1="3" x2="50" y2="97" stroke="currentColor" stroke-width="5"/>
+        <line x1="3" y1="50" x2="97" y2="50" stroke="currentColor" stroke-width="5"/>
+        <text x="26.5" y="27.5" font-family="'Gruppo', sans-serif" font-size="27" text-anchor="middle" dominant-baseline="central" fill="currentColor">J</text>
+        <text x="73.5" y="27.5" font-family="'Gruppo', sans-serif" font-size="27" text-anchor="middle" dominant-baseline="central" fill="currentColor">R</text>
+        <text x="26.5" y="74.5" font-family="'Gruppo', sans-serif" font-size="27" text-anchor="middle" dominant-baseline="central" fill="currentColor">D</text>
+        <text x="73.5" y="74.5" font-family="'Gruppo', sans-serif" font-size="27" text-anchor="middle" dominant-baseline="central" fill="currentColor">O</text>
+      </svg>
+      <span class="brand__sub">Arquitectura</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#estudio" class="nav__link">Estudio</a>
+      <a href="#servicios" class="nav__link">Servicios</a>
+      <a href="#proyectos" class="nav__link">Proyectos</a>
+      <a href="#nosotros" class="nav__link">Nosotros</a>
+      <a href="#contacto" class="nav__link nav__link--cta">Contacto</a>
+    </nav>
+
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__media">
+      <img src="assets/img/hero-mc.jpg" alt="Casa MC — fachada nocturna, vista de esquina, JRDO Arquitectura" loading="eager">
+      <div class="hero__scrim"></div>
+    </div>
+    <div class="hero__content">
+      <p class="eyebrow eyebrow--light" data-reveal>Despacho de Arquitectura · Diseño · Construcción</p>
+      <h1 class="hero__title" data-reveal>
+        Arquitectura contemporánea.<br>
+        Interiorismo <em>de autor</em>.
+      </h1>
+      <p class="hero__lead" data-reveal>
+        Diseñamos y construimos proyectos que trascienden. Integramos
+        la escala arquitectónica con un interiorismo sofisticado y
+        mobiliario de diseño exclusivo, garantizando un estándar de
+        excelencia en todas las fases de la obra.
+      </p>
+      <div class="hero__actions" data-reveal>
+        <a href="#proyectos" class="btn btn--light">Ver proyectos</a>
+        <a href="#contacto" class="btn btn--ghost-light">Cuéntanos tu proyecto</a>
+      </div>
+    </div>
+    <a href="#estudio" class="scroll-cue" aria-label="Desplázate para continuar">
+      <span></span>
+      Desplázate
+    </a>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Arquitectura</span><span>—</span>
+      <span>Diseño Interior</span><span>—</span>
+      <span>Diseño de Mobiliario</span><span>—</span>
+      <span>Construcción</span><span>—</span>
+      <span>Arquitectura</span><span>—</span>
+      <span>Diseño Interior</span><span>—</span>
+      <span>Diseño de Mobiliario</span><span>—</span>
+      <span>Construcción</span><span>—</span>
+    </div>
+  </div>
+
+  <!-- ESTUDIO / FILOSOFÍA -->
+  <section class="section" id="estudio">
+    <div class="container">
+      <div class="grid-split">
+        <div class="grid-split__label" data-reveal>
+          <p class="eyebrow">01 — Estudio</p>
+        </div>
+        <div class="grid-split__content">
+          <p class="statement" data-reveal>
+            Moldeamos el entorno en todas sus escalas: proyectamos la
+            arquitectura, materializamos la construcción, definimos el
+            interiorismo y esculpimos el mobiliario. Nuestro compromiso
+            es entregar espacios de diseño inteligente y alta
+            rentabilidad, guiados siempre por la <em>honestidad
+            absoluta</em> en cada etapa del proyecto.
+          </p>
+          <p class="body-text" data-reveal>
+            La filosofía de JRDO Arquitectura se basa en desarrollar
+            proyectos cuidando al máximo cada detalle, tanto en diseño
+            como en funcionalidad, ofreciendo espacios de la más alta
+            calidad con un equilibrio entre propuesta estética,
+            funcionalidad y costo. Frente al cliente actuamos con
+            total transparencia en cada etapa del proyecto, evitando
+            sobrecostos innecesarios y generando confianza real.
+          </p>
+        </div>
+      </div>
+
+      <div class="stats" data-reveal>
+        <div class="stats__item">
+          <span class="stats__num">15+</span>
+          <span class="stats__label">Años de experiencia</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__num">4</span>
+          <span class="stats__label">Disciplinas integradas en un mismo estudio</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__num">MX·Caribe</span>
+          <span class="stats__label">Proyectos desarrollados en México y el Caribe</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__num">100%</span>
+          <span class="stats__label">Transparencia en procesos y costos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section section--dark" id="servicios">
+    <div class="container">
+      <p class="eyebrow" data-reveal>02 — Servicios</p>
+      <h2 class="section-title" data-reveal>Cuatro disciplinas,<br>un mismo proceso.</h2>
+
+      <div class="services">
+        <article class="service" data-reveal data-modal-open="modal-arquitectura" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-arquitectura">
+          <span class="service__num">01</span>
+          <h3 class="service__title">Arquitectura</h3>
+          <p class="service__text">
+            Concepto, anteproyecto y proyecto ejecutivo. Diseño
+            arquitectónico y elaboración de renders fotorrealistas para
+            visualizar cada proyecto antes de construirlo.
+          </p>
+          <div class="service__gallery">
+            <figure>
+              <img src="assets/img/plano-selvamar-01.jpg" alt="Boceto de elevación arquitectónica, Selvamar 39" loading="lazy">
+              <figcaption>Selvamar 39</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/plano-selvamar-02.jpg" alt="Boceto en perspectiva, Selvamar 39" loading="lazy">
+              <figcaption>Selvamar 39</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/plano-selvamar-03.jpg" alt="Boceto en perspectiva, Selvamar 39" loading="lazy">
+              <figcaption>Selvamar 39</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/stock-plano-elevacion.jpg" alt="Plano de elevaciones y planta arquitectónica" loading="lazy">
+              <figcaption>Elevación</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/stock-plano-corte.jpg" alt="Corte arquitectónico técnico" loading="lazy">
+              <figcaption>Corte</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/stock-arquitecto-boceto.jpg" alt="Proceso de dibujo técnico con escuadra y plano" loading="lazy">
+              <figcaption>Proceso</figcaption>
+            </figure>
+          </div>
+          <span class="service__more">Ver detalle →</span>
+        </article>
+
+        <article class="service" data-reveal data-modal-open="modal-interior" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-interior">
+          <span class="service__num">02</span>
+          <h3 class="service__title">Diseño Interior</h3>
+          <p class="service__text">
+            Interiorismo de alto nivel: desarrollo de concepto y
+            proyecto ejecutivo de interiores, con atención al detalle
+            en cada material, acabado e iluminación.
+          </p>
+          <div class="service__gallery service__gallery--4">
+            <figure>
+              <img src="assets/img/interior-cb.jpg" alt="Diseño interior, Casa CB — estudio con acabados en madera y verde" loading="lazy">
+              <figcaption>Casa CB</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/interior-baktu.jpg" alt="Diseño interior, Baktu 18 — recámara principal" loading="lazy">
+              <figcaption>Baktu 18</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/interior-mc.jpg" alt="Diseño interior, Casa MC — vestíbulo y escalera" loading="lazy">
+              <figcaption>Casa MC</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/interior-obra-baktu.jpg" alt="Recámara Baktu 18 construida, cabecera de madera a medida" loading="lazy">
+              <figcaption>Baktu 18 — obra terminada</figcaption>
+            </figure>
+          </div>
+          <span class="service__more">Ver detalle →</span>
+        </article>
+
+        <article class="service" data-reveal data-modal-open="modal-mobiliario" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-mobiliario">
+          <span class="service__num">03</span>
+          <h3 class="service__title">Diseño de Mobiliario</h3>
+          <p class="service__text">
+            Mobiliario a medida de alto nivel: piezas exclusivas
+            diseñadas en función del espacio, el uso y la identidad de
+            cada proyecto.
+          </p>
+          <div class="service__gallery service__gallery--4">
+            <figure>
+              <img src="assets/img/mobiliario-cb.jpg" alt="Mobiliario a medida, Casa CB — centro de entretenimiento y closets" loading="lazy">
+              <figcaption>Casa CB</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/mobiliario-baktu.jpg" alt="Mobiliario a medida, Baktu 18 — cabecera y buró a medida" loading="lazy">
+              <figcaption>Baktu 18</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/mobiliario-mc.jpg" alt="Mobiliario a medida, Casa MC — cava y barra" loading="lazy">
+              <figcaption>Casa MC</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/mobiliario-ln.jpg" alt="Mobiliario a medida, Casa LN — escritorio y libreros en esquina" loading="lazy">
+              <figcaption>Casa LN</figcaption>
+            </figure>
+          </div>
+          <span class="service__more">Ver detalle →</span>
+        </article>
+
+        <article class="service" data-reveal data-modal-open="modal-construccion" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-construccion">
+          <span class="service__num">04</span>
+          <h3 class="service__title">Construcción</h3>
+          <p class="service__text">
+            Gerencia de proyectos, dirección técnico-administrativa,
+            coordinación de ingenierías, control de obra y ejecución —
+            de la excavación a la entrega.
+          </p>
+          <div class="service__gallery service__gallery--4">
+            <figure>
+              <img src="assets/img/interior-cocina.jpg" alt="Cocina integral terminada, obra en Cancún" loading="lazy">
+              <figcaption>Cancún</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/construccion-cocina-isla.jpg" alt="Isla de cocina en granito negro, obra terminada" loading="lazy">
+              <figcaption>Obra terminada</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/construccion-escalera.jpg" alt="Escalera de madera con tragaluz, obra terminada" loading="lazy">
+              <figcaption>Obra terminada</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/construccion-recamara.jpg" alt="Recámara con piso de mármol, obra terminada" loading="lazy">
+              <figcaption>Obra terminada</figcaption>
+            </figure>
+          </div>
+          <span class="service__more">Ver detalle →</span>
+        </article>
+      </div>
+
+      <div class="fields" data-reveal>
+        <p class="fields__label">Ámbitos de trabajo</p>
+        <p class="fields__list">
+          Residencial · Hotelería · Oficinas · Plazas comerciales ·
+          Restaurantes · Sucursales bancarias · Tiendas de autoservicio ·
+          Conjuntos habitacionales
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE DETAIL MODALS -->
+  <div class="modal-overlay" id="service-modal">
+
+    <div class="modal-panel" id="modal-arquitectura" role="dialog" aria-modal="true" aria-labelledby="modal-arquitectura-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">01 — Arquitectura</p>
+      <h3 id="modal-arquitectura-title" class="modal-title">Arquitectura</h3>
+      <p class="modal-text">
+        Concepto, anteproyecto y proyecto ejecutivo. Diseño arquitectónico
+        y elaboración de renders fotorrealistas para visualizar cada
+        proyecto antes de construirlo — de la primera idea a los planos
+        listos para obra.
+      </p>
+      <ul class="modal-list">
+        <li>Desarrollo de concepto, anteproyecto y proyecto ejecutivo</li>
+        <li>Diseño arquitectónico</li>
+        <li>Elaboración de renders fotorrealistas</li>
+        <li>Asesoría en diseño y arquitectura</li>
+      </ul>
+      <div class="modal-gallery">
+        <figure>
+          <img src="assets/img/plano-selvamar-01.jpg" alt="Boceto de elevación arquitectónica, Selvamar 39" loading="lazy">
+          <figcaption>Selvamar 39 — elevación</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/plano-selvamar-02.jpg" alt="Boceto en perspectiva, Selvamar 39" loading="lazy">
+          <figcaption>Selvamar 39 — perspectiva</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/plano-selvamar-03.jpg" alt="Boceto en perspectiva, Selvamar 39" loading="lazy">
+          <figcaption>Selvamar 39 — perspectiva</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/stock-plano-elevacion.jpg" alt="Plano de elevaciones y planta arquitectónica" loading="lazy">
+          <figcaption>Elevación y planta</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/stock-plano-corte.jpg" alt="Corte arquitectónico técnico" loading="lazy">
+          <figcaption>Corte arquitectónico</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/stock-arquitecto-boceto.jpg" alt="Proceso de dibujo técnico con escuadra y plano" loading="lazy">
+          <figcaption>Proceso de diseño</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="modal-panel" id="modal-interior" role="dialog" aria-modal="true" aria-labelledby="modal-interior-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">02 — Diseño Interior</p>
+      <h3 id="modal-interior-title" class="modal-title">Diseño Interior</h3>
+      <p class="modal-text">
+        Interiorismo de alto nivel: desarrollo de concepto y proyecto
+        ejecutivo de interiores, con atención al detalle en cada material,
+        acabado e iluminación — espacios que se sienten tan bien resueltos
+        como se ven.
+      </p>
+      <ul class="modal-list">
+        <li>Diseño interior de alto nivel</li>
+        <li>Concepto, anteproyecto y proyecto ejecutivo de interiores</li>
+        <li>Selección de materiales, acabados e iluminación</li>
+      </ul>
+      <div class="modal-gallery">
+        <figure>
+          <img src="assets/img/interior-cb.jpg" alt="Diseño interior, Casa CB — estudio con acabados en madera y verde" loading="lazy">
+          <figcaption>Casa CB</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/interior-baktu.jpg" alt="Diseño interior, Baktu 18 — recámara principal" loading="lazy">
+          <figcaption>Baktu 18</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/interior-mc.jpg" alt="Diseño interior, Casa MC — vestíbulo y escalera" loading="lazy">
+          <figcaption>Casa MC</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/interior-obra-baktu.jpg" alt="Recámara Baktu 18 construida, cabecera de madera a medida" loading="lazy">
+          <figcaption>Baktu 18 — obra terminada</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="modal-panel" id="modal-mobiliario" role="dialog" aria-modal="true" aria-labelledby="modal-mobiliario-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">03 — Diseño de Mobiliario</p>
+      <h3 id="modal-mobiliario-title" class="modal-title">Diseño de Mobiliario</h3>
+      <p class="modal-text">
+        Mobiliario a medida de alto nivel: piezas exclusivas diseñadas en
+        función del espacio, el uso y la identidad de cada proyecto — desde
+        el diseño hasta la supervisión de fabricación e instalación.
+      </p>
+      <ul class="modal-list">
+        <li>Mobiliario a medida de alto nivel</li>
+        <li>Piezas exclusivas por espacio y proyecto</li>
+        <li>Diseño y supervisión de fabricación</li>
+      </ul>
+      <div class="modal-gallery">
+        <figure>
+          <img src="assets/img/mobiliario-cb.jpg" alt="Mobiliario a medida, Casa CB — centro de entretenimiento y closets" loading="lazy">
+          <figcaption>Casa CB</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/mobiliario-baktu.jpg" alt="Mobiliario a medida, Baktu 18 — cabecera y buró a medida" loading="lazy">
+          <figcaption>Baktu 18</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/mobiliario-mc.jpg" alt="Mobiliario a medida, Casa MC — cava y barra" loading="lazy">
+          <figcaption>Casa MC</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/mobiliario-ln.jpg" alt="Mobiliario a medida, Casa LN — escritorio y libreros en esquina" loading="lazy">
+          <figcaption>Casa LN</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="modal-panel" id="modal-construccion" role="dialog" aria-modal="true" aria-labelledby="modal-construccion-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">04 — Construcción</p>
+      <h3 id="modal-construccion-title" class="modal-title">Construcción</h3>
+      <p class="modal-text">
+        Gerencia de proyectos, dirección técnico-administrativa,
+        coordinación de ingenierías, control de obra y ejecución — de la
+        excavación a la entrega, con total transparencia en cada etapa.
+      </p>
+      <ul class="modal-list">
+        <li>Dirección general y técnico-administrativa</li>
+        <li>Coordinación de ingenierías y control de obra</li>
+        <li>Gestión de contratos y trámites ante dependencias</li>
+        <li>Remodelación y mantenimiento</li>
+      </ul>
+      <div class="modal-gallery">
+        <figure>
+          <img src="assets/img/interior-cocina.jpg" alt="Cocina integral terminada, obra en Cancún" loading="lazy">
+          <figcaption>Cocina integral — Cancún</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/construccion-cocina-isla.jpg" alt="Isla de cocina en granito negro, obra terminada" loading="lazy">
+          <figcaption>Isla de cocina en granito</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/construccion-escalera.jpg" alt="Escalera de madera con tragaluz, obra terminada" loading="lazy">
+          <figcaption>Escalera con tragaluz</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/construccion-recamara.jpg" alt="Recámara con piso de mármol, obra terminada" loading="lazy">
+          <figcaption>Recámara, piso de mármol</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="modal-panel" id="modal-proyecto-mc" role="dialog" aria-modal="true" aria-labelledby="modal-proyecto-mc-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">Residencial · Vivienda unifamiliar</p>
+      <h3 id="modal-proyecto-mc-title" class="modal-title">Casa MC</h3>
+      <p class="modal-text">
+        Vivienda unifamiliar de dos niveles con acabados en mármol y
+        madera, alberca y áreas sociales de doble altura.
+      </p>
+      <div class="modal-gallery">
+        <figure><img src="assets/img/proyecto-mc-02.jpg" alt="Casa MC — vista de jardín al atardecer" loading="lazy"><figcaption>Jardín al atardecer</figcaption></figure>
+        <figure><img src="assets/img/hero-mc.jpg" alt="Casa MC — fachada nocturna, vista de esquina" loading="lazy"><figcaption>Fachada nocturna</figcaption></figure>
+        <figure><img src="assets/img/mc-escena4.jpg" alt="Casa MC — fachada lateral al atardecer" loading="lazy"><figcaption>Fachada lateral</figcaption></figure>
+        <figure><img src="assets/img/mc-scene42.jpg" alt="Casa MC — sala de doble altura con cava" loading="lazy"><figcaption>Sala y cava</figcaption></figure>
+        <figure><img src="assets/img/mc-int02.jpg" alt="Casa MC — vestíbulo con consola escultórica" loading="lazy"><figcaption>Vestíbulo</figcaption></figure>
+        <figure><img src="assets/img/mc-int10.jpg" alt="Casa MC — vista aérea de sala y comedor" loading="lazy"><figcaption>Sala y comedor</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="modal-panel" id="modal-proyecto-cb" role="dialog" aria-modal="true" aria-labelledby="modal-proyecto-cb-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">Residencial · Interiorismo</p>
+      <h3 id="modal-proyecto-cb-title" class="modal-title">Casa CB</h3>
+      <p class="modal-text">
+        Interiorismo integral para una vivienda residencial: mobiliario
+        a medida, biblioteca, home office y estación de café y vinos.
+      </p>
+      <div class="modal-gallery">
+        <figure><img src="assets/img/proyecto-cb-01.jpg" alt="Casa CB — sala con biblioteca a medida" loading="lazy"><figcaption>Sala y biblioteca</figcaption></figure>
+        <figure><img src="assets/img/interior-cb.jpg" alt="Casa CB — estudio con acabados en madera y verde" loading="lazy"><figcaption>Estudio</figcaption></figure>
+        <figure><img src="assets/img/mobiliario-cb.jpg" alt="Casa CB — centro de entretenimiento y closets" loading="lazy"><figcaption>Centro de entretenimiento</figcaption></figure>
+        <figure><img src="assets/img/cb-scene8.jpg" alt="Casa CB — vista general de sala y home office" loading="lazy"><figcaption>Sala y home office</figcaption></figure>
+        <figure><img src="assets/img/cb-scene10.jpg" alt="Casa CB — biblioteca a medida, vista amplia" loading="lazy"><figcaption>Biblioteca</figcaption></figure>
+        <figure><img src="assets/img/cb-scene12.jpg" alt="Casa CB — estación de café y vinos a medida" loading="lazy"><figcaption>Estación de café y vinos</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="modal-panel" id="modal-proyecto-baktu" role="dialog" aria-modal="true" aria-labelledby="modal-proyecto-baktu-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">Residencial · Interiorismo</p>
+      <h3 id="modal-proyecto-baktu-title" class="modal-title">Baktu 18</h3>
+      <p class="modal-text">
+        Diseño de interiores y mobiliario a medida para desarrollo
+        residencial, con recámaras principales y detalles
+        arquitectónicos personalizados.
+      </p>
+      <div class="modal-gallery">
+        <figure><img src="assets/img/proyecto-baktu-01.jpg" alt="Baktu 18 — recámara principal con cabecera a medida" loading="lazy"><figcaption>Recámara principal</figcaption></figure>
+        <figure><img src="assets/img/interior-baktu.jpg" alt="Baktu 18 — recámara con arte y cabecera de madera" loading="lazy"><figcaption>Recámara, detalle</figcaption></figure>
+        <figure><img src="assets/img/baktu-h108.jpg" alt="Baktu 18 — muro de TV con panel acanalado" loading="lazy"><figcaption>Muro de TV</figcaption></figure>
+        <figure><img src="assets/img/baktu-real-tocador.jpg" alt="Baktu 18 — tocador construido, obra terminada" loading="lazy"><figcaption>Tocador — obra terminada</figcaption></figure>
+        <figure><img src="assets/img/baktu-real-recamara2.jpg" alt="Baktu 18 — recámara construida con muro curvo, obra terminada" loading="lazy"><figcaption>Recámara — obra terminada</figcaption></figure>
+        <figure><img src="assets/img/baktu-scene9a.jpg" alt="Baktu 18 — render de recámara con muro curvo" loading="lazy"><figcaption>Recámara — render</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="modal-panel" id="modal-proyecto-vdm" role="dialog" aria-modal="true" aria-labelledby="modal-proyecto-vdm-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">Residencial</p>
+      <h3 id="modal-proyecto-vdm-title" class="modal-title">Valle del Molino</h3>
+      <p class="modal-text">
+        Vivienda residencial de dos niveles con fachada en mármol y
+        balcones de doble altura.
+      </p>
+      <div class="modal-gallery">
+        <figure><img src="assets/img/proyecto-vdm-01.jpg" alt="Valle del Molino — fachada de esquina al atardecer" loading="lazy"><figcaption>Fachada de esquina</figcaption></figure>
+        <figure><img src="assets/img/proyecto-vdm-02.jpg" alt="Valle del Molino — fachada de acceso al atardecer" loading="lazy"><figcaption>Fachada de acceso</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="modal-panel" id="modal-proyecto-orq" role="dialog" aria-modal="true" aria-labelledby="modal-proyecto-orq-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">Residencial</p>
+      <h3 id="modal-proyecto-orq-title" class="modal-title">Orquídeas</h3>
+      <p class="modal-text">
+        Vivienda residencial entre palmeras — del concepto a la obra
+        construida.
+      </p>
+      <div class="modal-gallery">
+        <figure><img src="assets/img/proyecto-orq-01.jpg" alt="Orquídeas — fachada de acceso al atardecer" loading="lazy"><figcaption>Fachada de acceso</figcaption></figure>
+        <figure><img src="assets/img/orq-fachada02.jpg" alt="Orquídeas — fachada principal al atardecer" loading="lazy"><figcaption>Fachada principal</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="modal-panel" id="modal-proyecto-senderos" role="dialog" aria-modal="true" aria-labelledby="modal-proyecto-senderos-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">Residencial</p>
+      <h3 id="modal-proyecto-senderos-title" class="modal-title">Senderos 28</h3>
+      <p class="modal-text">
+        Vivienda residencial contemporánea con acabados en piedra y
+        madera.
+      </p>
+      <div class="modal-gallery">
+        <figure><img src="assets/img/proyecto-senderos-01.jpg" alt="Senderos 28 — fachada principal entre palmeras" loading="lazy"><figcaption>Fachada principal</figcaption></figure>
+        <figure><img src="assets/img/senderos-02.jpg" alt="Senderos 28 — fachada con alberca y jardín" loading="lazy"><figcaption>Fachada y alberca</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="modal-panel" id="modal-proyecto-ln" role="dialog" aria-modal="true" aria-labelledby="modal-proyecto-ln-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">Residencial · Mobiliario a medida</p>
+      <h3 id="modal-proyecto-ln-title" class="modal-title">Casa LN</h3>
+      <p class="modal-text">
+        Mobiliario a medida e interiorismo para una vivienda
+        residencial: escritorio de esquina, clósets, tocador y bar
+        bajo escalera.
+      </p>
+      <div class="modal-gallery">
+        <figure><img src="assets/img/proyecto-ln-01.jpg" alt="Casa LN — centro de entretenimiento con panel de mármol" loading="lazy"><figcaption>Centro de entretenimiento</figcaption></figure>
+        <figure><img src="assets/img/mobiliario-ln.jpg" alt="Casa LN — escritorio y libreros en esquina" loading="lazy"><figcaption>Escritorio de esquina</figcaption></figure>
+        <figure><img src="assets/img/ln-escritorio2.jpg" alt="Casa LN — escritorio de esquina, vista amplia" loading="lazy"><figcaption>Escritorio, vista amplia</figcaption></figure>
+        <figure><img src="assets/img/ln-closet.jpg" alt="Casa LN — clóset a medida" loading="lazy"><figcaption>Clóset a medida</figcaption></figure>
+        <figure><img src="assets/img/ln-tocador.jpg" alt="Casa LN — tocador con cajones a medida" loading="lazy"><figcaption>Tocador</figcaption></figure>
+        <figure><img src="assets/img/ln-bar.jpg" alt="Casa LN — bar bajo escalera a medida" loading="lazy"><figcaption>Bar bajo escalera</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="modal-panel" id="modal-proyecto-mayakoba" role="dialog" aria-modal="true" aria-labelledby="modal-proyecto-mayakoba-title" hidden>
+      <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <p class="eyebrow">Residencial</p>
+      <h3 id="modal-proyecto-mayakoba-title" class="modal-title">Residencial Mayakoba</h3>
+      <p class="modal-text">
+        Vivienda residencial contemporánea entre palmeras, con
+        acabados en piedra y madera.
+      </p>
+      <div class="modal-gallery modal-gallery--panoramic">
+        <figure><img src="assets/img/proyecto-mayakoba-01.jpg" alt="Residencial Mayakoba — vista panorámica del conjunto de tres casas al atardecer" loading="lazy"><figcaption>Vista panorámica del conjunto</figcaption></figure>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PROYECTOS -->
+  <section class="section" id="proyectos">
+    <div class="container">
+      <p class="eyebrow" data-reveal>03 — Proyectos</p>
+      <h2 class="section-title" data-reveal>Una selección de nuestro trabajo.</h2>
+
+      <div class="portfolio">
+        <div class="portfolio__item portfolio__item--lg" data-modal-open="modal-proyecto-mc" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-proyecto-mc" data-reveal>
+          <img src="assets/img/proyecto-mc-02.jpg" alt="Casa MC — vista de jardín al atardecer" loading="lazy">
+          <span class="portfolio__caption">
+            <span class="portfolio__name">Casa MC</span>
+            <span class="portfolio__tag">Residencial · Vivienda unifamiliar</span>
+          </span>
+        </div>
+
+        <div class="portfolio__item" data-modal-open="modal-proyecto-cb" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-proyecto-cb" data-reveal>
+          <img src="assets/img/proyecto-cb-01.jpg" alt="Casa CB — sala con biblioteca a medida" loading="lazy">
+          <span class="portfolio__caption">
+            <span class="portfolio__name">Casa CB</span>
+            <span class="portfolio__tag">Residencial · Interiorismo</span>
+          </span>
+        </div>
+
+        <div class="portfolio__item" data-modal-open="modal-proyecto-baktu" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-proyecto-baktu" data-reveal>
+          <img src="assets/img/proyecto-baktu-01.jpg" alt="Baktu 18 — recámara principal con cabecera a medida" loading="lazy">
+          <span class="portfolio__caption">
+            <span class="portfolio__name">Baktu 18</span>
+            <span class="portfolio__tag">Residencial · Interiorismo</span>
+          </span>
+        </div>
+
+        <div class="portfolio__item" data-modal-open="modal-proyecto-vdm" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-proyecto-vdm" data-reveal>
+          <img src="assets/img/proyecto-vdm-01.jpg" alt="Valle del Molino — fachada de esquina al atardecer" loading="lazy">
+          <span class="portfolio__caption">
+            <span class="portfolio__name">Valle del Molino</span>
+            <span class="portfolio__tag">Residencial</span>
+          </span>
+        </div>
+
+        <div class="portfolio__item" data-modal-open="modal-proyecto-orq" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-proyecto-orq" data-reveal>
+          <img src="assets/img/proyecto-orq-01.jpg" alt="Orquídeas — fachada de acceso al atardecer" loading="lazy">
+          <span class="portfolio__caption">
+            <span class="portfolio__name">Orquídeas</span>
+            <span class="portfolio__tag">Residencial</span>
+          </span>
+        </div>
+
+        <div class="portfolio__item" data-modal-open="modal-proyecto-senderos" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-proyecto-senderos" data-reveal>
+          <img src="assets/img/proyecto-senderos-01.jpg" alt="Senderos 28 — fachada principal entre palmeras" loading="lazy">
+          <span class="portfolio__caption">
+            <span class="portfolio__name">Senderos 28</span>
+            <span class="portfolio__tag">Residencial</span>
+          </span>
+        </div>
+
+        <div class="portfolio__item" data-modal-open="modal-proyecto-ln" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-proyecto-ln" data-reveal>
+          <img src="assets/img/proyecto-ln-01.jpg" alt="Casa LN — centro de entretenimiento con panel de mármol" loading="lazy">
+          <span class="portfolio__caption">
+            <span class="portfolio__name">Casa LN</span>
+            <span class="portfolio__tag">Residencial · Mobiliario a medida</span>
+          </span>
+        </div>
+
+        <div class="portfolio__item" data-modal-open="modal-proyecto-mayakoba" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="modal-proyecto-mayakoba" data-reveal>
+          <img src="assets/img/proyecto-mayakoba-01.jpg" alt="Residencial Mayakoba — fachada principal al atardecer entre palmeras" loading="lazy">
+          <span class="portfolio__caption">
+            <span class="portfolio__name">Residencial Mayakoba</span>
+            <span class="portfolio__tag">Residencial</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="section section--oxford" id="nosotros">
+    <div class="container">
+      <div class="grid-split">
+        <div class="grid-split__label" data-reveal>
+          <p class="eyebrow eyebrow--light">04 — Nosotros</p>
+        </div>
+        <div class="grid-split__content">
+          <h2 class="section-title section-title--light section-title--wide" data-reveal>
+            Un estudio de espíritu innovador con cimientos fuertes:
+            quince años de experiencia proyectando y materializando
+            el espacio.
+          </h2>
+          <p class="body-text body-text--light" data-reveal>
+            JRDO Arquitectura combina formalidad y profesionalismo con
+            ideas innovadoras, contemporáneas y vanguardistas. El equipo
+            desarrolla proyectos multidisciplinarios: desde vivienda de
+            nivel medio y residencial, hasta complejos comerciales,
+            industriales, oficinas, hotelería y desarrollos urbanísticos
+            de gran escala.
+          </p>
+
+          <div class="team" data-reveal>
+            <p class="team__label">El equipo</p>
+            <p class="team__bio">
+              Somos un grupo de arquitectos y profesionistas con más de
+              15 años de experiencia en diseño, desarrollo, construcción
+              y dirección de proyectos arquitectónicos — de lo
+              residencial a lo hotelero — colaborando con firmas de
+              arquitectura e ingeniería en México y el Caribe.
+            </p>
+          </div>
+
+          <ul class="values" data-reveal>
+            <li>Pasión</li>
+            <li>Honestidad</li>
+            <li>Transparencia</li>
+            <li>Responsabilidad</li>
+            <li>Creatividad</li>
+            <li>Compromiso</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section--cta" id="contacto">
+    <div class="container">
+      <p class="eyebrow" data-reveal>05 — Contacto</p>
+      <h2 class="cta-title" data-reveal>Cuéntanos tu <em>proyecto</em>.</h2>
+      <p class="body-text" data-reveal>
+        Analizamos cada caso para ofrecer la mejor propuesta de diseño,
+        técnica y económica — respaldados por la experiencia acumulada
+        a lo largo de los años.
+      </p>
+
+      <div class="contact-grid" data-reveal>
+        <a class="contact-card" href="mailto:hola@jrdoarquitectura.com?subject=Quiero%20cotizar%20un%20proyecto">
+          <span class="contact-card__label">Correo</span>
+          <span class="contact-card__value">hola@jrdoarquitectura.com</span>
+        </a>
+        <a class="contact-card" href="tel:+525656488600">
+          <span class="contact-card__label">Teléfono</span>
+          <span class="contact-card__value">+52 56 5648 8600</span>
+        </a>
+        <a class="contact-card" href="https://wa.me/525656488600" target="_blank" rel="noopener">
+          <span class="contact-card__label">WhatsApp</span>
+          <span class="contact-card__value">+52 56 5648 8600</span>
+        </a>
+        <div class="contact-card contact-card--static">
+          <span class="contact-card__label">Ubicación</span>
+          <span class="contact-card__value">Ciudad de México · Estado de México · Querétaro</span>
+        </div>
+        <a class="contact-card" href="https://www.instagram.com/jrdo.arquitectura/" target="_blank" rel="noopener">
+          <span class="contact-card__label">Instagram</span>
+          <span class="contact-card__value">@jrdo.arquitectura</span>
+        </a>
+        <a class="contact-card" href="https://www.facebook.com/profile.php?id=61593883622134&amp;locale=es_LA" target="_blank" rel="noopener">
+          <span class="contact-card__label">Facebook</span>
+          <span class="contact-card__value">JRDO Arquitectura</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="#top" class="brand brand--footer">
+      <svg class="brand__mark" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="JRDO">
+        <rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="3"/>
+        <line x1="50" y1="3" x2="50" y2="97" stroke="currentColor" stroke-width="5"/>
+        <line x1="3" y1="50" x2="97" y2="50" stroke="currentColor" stroke-width="5"/>
+        <text x="26.5" y="27.5" font-family="'Gruppo', sans-serif" font-size="27" text-anchor="middle" dominant-baseline="central" fill="currentColor">J</text>
+        <text x="73.5" y="27.5" font-family="'Gruppo', sans-serif" font-size="27" text-anchor="middle" dominant-baseline="central" fill="currentColor">R</text>
+        <text x="26.5" y="74.5" font-family="'Gruppo', sans-serif" font-size="27" text-anchor="middle" dominant-baseline="central" fill="currentColor">D</text>
+        <text x="73.5" y="74.5" font-family="'Gruppo', sans-serif" font-size="27" text-anchor="middle" dominant-baseline="central" fill="currentColor">O</text>
+      </svg>
+      <span class="brand__sub">Arquitectura</span>
+    </a>
+    <p class="footer__note">Arquitectura · Diseño Interior · Diseño de Mobiliario · Construcción</p>
+    <p class="footer__copy">© <span id="year"></span> JRDO Arquitectura. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script defer src="main.js?v=20260826"></script>
+</body>
+</html>
