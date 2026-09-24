@@ -149,7 +149,22 @@
     });
   }
 
+  // Meta Pixel: registra como "Contact" los clics en WhatsApp, teléfono y correo.
+  function initContactTracking() {
+    document.addEventListener("click", function (e) {
+      var link = e.target.closest && e.target.closest("a[href]");
+      if (!link || typeof window.fbq !== "function") return;
+      var href = link.getAttribute("href") || "";
+      var method = null;
+      if (href.indexOf("wa.me") !== -1 || href.indexOf("whatsapp") !== -1) method = "whatsapp";
+      else if (href.indexOf("tel:") === 0) method = "telefono";
+      else if (href.indexOf("mailto:") === 0) method = "correo";
+      if (method) window.fbq("track", "Contact", { method: method });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
+    safe(initContactTracking, "contact-tracking");
     safe(initHeader, "header");
     safe(initBurger, "burger");
     safe(initSmoothAnchors, "smooth-anchors");
