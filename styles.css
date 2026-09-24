@@ -607,6 +607,24 @@ button{ font: inherit; background: none; border: none; cursor: pointer; }
   margin-bottom: .9rem;
 }
 .team__bio{ font-size: .92rem; line-height: 1.7; color: rgba(250,248,244,.78); max-width: 52ch; }
+.team + .team{ margin-top: 0; }
+.team__lead{
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.35rem;
+  line-height: 1.35;
+  color: var(--white);
+  margin-bottom: .8rem;
+}
+
+.brand-tagline{
+  margin-top: 3rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  color: var(--ochre);
+  text-align: center;
+}
 
 .values{
   display: flex; flex-wrap: wrap; gap: .7rem;
